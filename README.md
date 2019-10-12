@@ -1,5 +1,5 @@
-# Argus
-A simple application to monitor the health of applications with prometheus. Argus goes through the list of endpoints 
+# [Argus](https://en.wikipedia.org/wiki/Argus_Panoptes)
+A simple synthetics monitor to monitor health of servers with prometheus. Argus goes through the list of endpoints 
 for a configured time interval and checks if configured servers are reachable. It then sends a metric <<server_name>>_down per endpoint configured.
 This can later be used to configure an alert to indicate if the server is down.
 
