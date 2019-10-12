@@ -4,7 +4,6 @@ import (
 	"bufio"
 	"flag"
 	"fmt"
-	"github.com/shyamz-22/monitor/internal/exceptions"
 	"log"
 	"net/http"
 	"os"
@@ -14,6 +13,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
+	"github.com/shyamz-22/monitor/internal/exceptions"
 )
 
 const separator = ","
