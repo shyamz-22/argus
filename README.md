@@ -49,7 +49,7 @@ Usage of ./monitor:
 
 ## Endpoints file
 
-All the endpoints that needs to be monitored can be configured as `name,url`
+All the endpoints that needs to be monitored can be configured as a csv file containing `name,url`
 
 ### Example
 ```csv
