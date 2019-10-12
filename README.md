@@ -30,7 +30,7 @@ scrape_configs:
 
 ```bash
 > cd monitor
-> go build -race
+> go build -race -o bin/monitor
 ```
 
 ## Configuration
