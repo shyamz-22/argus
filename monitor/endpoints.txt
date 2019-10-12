@@ -1,0 +1,4 @@
+github,http://localhost:8080
+microsoft,http://localhost:8081
+yahoo,http://localhost:8082
+google,https://google.com
